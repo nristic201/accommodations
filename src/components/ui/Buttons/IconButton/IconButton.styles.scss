@@ -1,0 +1,25 @@
+.acc-icon-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+
+  -webkit-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}

@@ -1,0 +1,18 @@
+.acc-tag {
+  border-radius: 24px;
+  border: 1px solid pink;
+  color: pink;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: baseline;
+  height: min-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
