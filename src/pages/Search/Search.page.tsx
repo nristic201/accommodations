@@ -7,11 +7,11 @@ import { AccommodationCardList } from '../../components/rest/AccommodationCardLi
 const AccommodationFilters = () => {
   return (
     <div className="acc-accommodation-filters">
-      <div className="filter-listening">
+      <div className="filters-box filter-listening">
         <Typography as="h4" text="Please find me some hotel stays in Riyaah..." />
         <Typography as="p" text="Listening..." />
       </div>
-      <div></div>
+      <div className="filters-box filters-person"></div>
     </div>
   );
 };
